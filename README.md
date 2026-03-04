@@ -63,7 +63,7 @@ uv sync
 Install browser binaries
 
 ```
-rfbrowser init
+uv run rfbrowser init
 ```
 
 ---
