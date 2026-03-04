@@ -95,5 +95,5 @@ results/
 Open report
 
 ```
-results/report.html
+open results/report.html
 ```
