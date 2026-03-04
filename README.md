@@ -72,7 +72,7 @@ uv run rfbrowser init
 Run with output directory
 
 ```
-robot -d results tests/odt-merchandise.robot
+robot -d results tests/odt-merchandise.robot | uv run robot -d results tests/odt-merchandise.robot
 ```
 
 ---
