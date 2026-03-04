@@ -1,4 +1,4 @@
-# QA Automation - Robot Framework
+# Robot Framework | Browser Library
 
 UI automation project built with **Robot Framework** and **Browser Library (Playwright)**.
 Dependencies are managed using **uv** for fast and reproducible environments.
