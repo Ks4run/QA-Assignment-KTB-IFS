@@ -19,7 +19,6 @@ Dependencies are managed using **uv** for fast and reproducible environments.
 ```
 .
 ├── tests/
-├── resources/
 ├── results/
 ├── pyproject.toml
 └── README.md
