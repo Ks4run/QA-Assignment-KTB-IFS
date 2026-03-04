@@ -141,7 +141,7 @@ ___
 ___
 
 ### B3. หาก UI tests flaky บน CI แต่รันผ่านบนเครื่องคุณ คุณจะสืบสวนและแก้ไขอย่างไร
-- set ให้ทุก action/step มีการ delay เพิ่มขึ้น (เพราะการรัน automate บางครั้ง UI หรืิอ DOM Element โหลดไม่ทัน) และ run local ด้วย debug mode เพื่อ investigate issues step-by-step
+- set ให้ทุก action/step มีการ delay เพิ่มขึ้น (เพราะการรัน automate บางครั้ง UI หรือ DOM Element โหลดไม่ทัน) และ run local ด้วย debug mode เพื่อ investigate issues step-by-step
 
 ___
 
