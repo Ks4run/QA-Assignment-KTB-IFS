@@ -1,0 +1,10 @@
+[project]
+name = "qa-assignment-ktb-ifs"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "robotframework>=7.4.2",
+    "robotframework-browser>=19.12.5",
+]
