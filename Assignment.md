@@ -3,7 +3,7 @@
 
 ### A1. ออกแบบ test scenarios สําหรับ: เพิ่มสินค้าใส่ตะกร้า (Add product to cart)ให้ครอบคลุม positive, negative และ edge cases
 ___
-```
+
 # Test Scenarios: เพิ่มสินค้าใส่ตะกร้า (Add Product to Cart)
 
 ## Positive Scenarios
@@ -48,7 +48,7 @@ ___
 | TC-ADD-022 | เพิ่มสินค้าจากหลาย browser tab | เปิด 2 tab → Add สินค้า | Cart sync ถูกต้อง |
 | TC-ADD-023 | เพิ่มสินค้าแล้ว logout/login | Add item → Logout → Login | ตรวจสอบพฤติกรรม cart |
 | TC-ADD-024 | เพิ่มสินค้าที่มีทศนิยมราคา | Add สินค้าราคา decimal | ระบบคำนวณราคาได้ถูกต้อง |
-```
+
 ___
 
 ### A2. หากคุณมีเวลา explore ระบบนี้ 30 นาทีคุณจะใช้กลยุทธ์อย่างไร และเพราะอะไร
