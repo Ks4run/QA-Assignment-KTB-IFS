@@ -7,7 +7,7 @@ ${BROWSER}       chromium
 
 *** Test Cases ***
 Login Merchandise ODDS Success
-    New Browser    browser=${BROWSER}    headless=False
+    New Browser    browser=${BROWSER}    headless=True
     New Page       ${URL}
     Fill Text      id=login-field    customer1
     Fill Text      id=password-field    password
