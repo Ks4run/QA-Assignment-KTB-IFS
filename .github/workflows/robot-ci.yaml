@@ -4,8 +4,11 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: write
+
 jobs:
-  robot:
+  robot-test:
     runs-on: ubuntu-latest
 
     steps:
@@ -32,3 +35,14 @@ jobs:
         with:
           name: robot-report
           path: results
+
+      - name: Deploy report to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./results/report.html
+
+      - name: Echo report URL
+        run: |
+          echo "Robot Report URL:"
+          echo "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/report.html"
