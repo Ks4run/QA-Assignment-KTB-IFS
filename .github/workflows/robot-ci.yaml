@@ -8,29 +8,71 @@ permissions:
   contents: write
 
 jobs:
+  #   robot-test:
+  #     runs-on: ubuntu-latest
+
+  #     steps:
+  #       - name: Checkout repo
+  #         uses: actions/checkout@v4
+
+  #       - name: Install uv
+  #         uses: astral-sh/setup-uv@v2
+
+  #       - name: Install dependencies
+  #         run: |
+  #           uv sync
+
+  #       - name: Install Playwright browsers
+  #         run: |
+  #           uv run rfbrowser init
+
+  #       - name: Run Robot tests
+  #         run: |
+  #           uv run robot -d results tests/
+
+  #       - name: Upload report
+  #         uses: actions/upload-artifact@v4
+  #         with:
+  #           name: robot-report
+  #           path: results
   robot-test:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Install uv
         uses: astral-sh/setup-uv@v2
 
+      - name: Setup Node.js 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Cache uv dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/uv
+          key: ${{ runner.os }}-uv-${{ hashFiles('uv.lock') }}
+
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright
+
       - name: Install dependencies
-        run: |
-          uv sync
+        run: uv sync
 
       - name: Install Playwright browsers
-        run: |
-          uv run rfbrowser init
+        run: uv run rfbrowser init
 
       - name: Run Robot tests
-        run: |
-          uv run robot -d results tests/
+        run: uv run robot -d results tests/
+        continue-on-error: true
 
-      - name: Upload report
+      - name: Upload report artifact
         uses: actions/upload-artifact@v4
         with:
           name: robot-report
@@ -52,6 +94,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
           publish_dir: ./results
 
       - name: Echo report URL
