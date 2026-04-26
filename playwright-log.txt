@@ -1,54 +1,54 @@
-{"level":30,"time":"2026-04-25T23:42:12.197Z","pid":3296,"hostname":"runnervmeorf1","msg":"Listening on 127.0.0.1:39453"}
-{"level":30,"time":"2026-04-25T23:42:12.221Z","pid":3296,"hostname":"runnervmeorf1","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2026-04-25T23:42:12.467Z","pid":3296,"hostname":"runnervmeorf1","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
-{"level":30,"time":"2026-04-25T23:42:12.468Z","pid":3296,"hostname":"runnervmeorf1","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2026-04-25T23:42:12.468Z","pid":3296,"hostname":"runnervmeorf1","msg":"End of node method newBrowser"}
-{"level":30,"time":"2026-04-25T23:42:12.473Z","pid":3296,"hostname":"runnervmeorf1","msg":"Start of node method newPage"}
-{"level":30,"time":"2026-04-25T23:42:12.473Z","pid":3296,"hostname":"runnervmeorf1","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@450a05d14a52d471534b9ed812fab3ba\"},\"headless\":true,\"_contextStack\":[],\"id\":\"browser=185993e8-e63d-4203-bf2e-c223ccf3b4ae\"}"}
-{"level":30,"time":"2026-04-25T23:42:12.480Z","pid":3296,"hostname":"runnervmeorf1","msg":"Setting default timeout for context context=c1117114-38eb-4313-a1a4-a6597e2345b7 to 10000"}
-{"level":30,"time":"2026-04-25T23:42:12.481Z","pid":3296,"hostname":"runnervmeorf1","msg":"Changed active context: context=c1117114-38eb-4313-a1a4-a6597e2345b7"}
-{"level":30,"time":"2026-04-25T23:42:12.511Z","pid":3296,"hostname":"runnervmeorf1","msg":"Video path: undefined"}
-{"level":30,"time":"2026-04-25T23:42:12.511Z","pid":3296,"hostname":"runnervmeorf1","msg":"Changed active page"}
-{"level":30,"time":"2026-04-25T23:42:13.647Z","pid":3296,"hostname":"runnervmeorf1","msg":"End of node method newPage"}
-{"level":30,"time":"2026-04-25T23:42:13.651Z","pid":3296,"hostname":"runnervmeorf1","msg":"Start of node method fillText"}
-{"level":30,"time":"2026-04-25T23:42:13.652Z","pid":3296,"hostname":"runnervmeorf1","msg":"Strict mode is enabled, find Locator with id=login-field in page."}
-{"level":30,"time":"2026-04-25T23:42:13.680Z","pid":3296,"hostname":"runnervmeorf1","msg":"End of node method fillText"}
-{"level":30,"time":"2026-04-25T23:42:13.683Z","pid":3296,"hostname":"runnervmeorf1","msg":"Start of node method fillText"}
-{"level":30,"time":"2026-04-25T23:42:13.683Z","pid":3296,"hostname":"runnervmeorf1","msg":"Strict mode is enabled, find Locator with id=password-field in page."}
-{"level":30,"time":"2026-04-25T23:42:13.688Z","pid":3296,"hostname":"runnervmeorf1","msg":"End of node method fillText"}
-{"level":30,"time":"2026-04-25T23:42:13.691Z","pid":3296,"hostname":"runnervmeorf1","msg":"Start of node method click"}
-{"level":30,"time":"2026-04-25T23:42:13.692Z","pid":3296,"hostname":"runnervmeorf1","msg":"Strict mode is enabled, find Locator with id=submit-button in page."}
-{"level":30,"time":"2026-04-25T23:42:13.733Z","pid":3296,"hostname":"runnervmeorf1","msg":"End of node method click"}
-{"level":30,"time":"2026-04-25T23:42:13.737Z","pid":3296,"hostname":"runnervmeorf1","msg":"Start of node method press"}
-{"level":30,"time":"2026-04-25T23:42:13.737Z","pid":3296,"hostname":"runnervmeorf1","msg":"Strict mode is enabled, find Locator with Enter in page."}
-{"level":30,"time":"2026-04-25T23:42:13.737Z","pid":3296,"hostname":"runnervmeorf1","msg":"End of node method press"}
-{"level":30,"time":"2026-04-25T23:42:13.740Z","pid":3296,"hostname":"runnervmeorf1","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-04-25T23:42:13.740Z","pid":3296,"hostname":"runnervmeorf1","msg":"Strict mode is enabled, find Locator with id=shop-title in page."}
-{"level":30,"time":"2026-04-25T23:42:14.311Z","pid":3296,"hostname":"runnervmeorf1","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-04-25T23:42:14.315Z","pid":3296,"hostname":"runnervmeorf1","msg":"Start of node method getText"}
-{"level":30,"time":"2026-04-25T23:42:14.315Z","pid":3296,"hostname":"runnervmeorf1","msg":"Strict mode is enabled, find Locator with id=shop-title in page."}
-{"level":30,"time":"2026-04-25T23:42:14.341Z","pid":3296,"hostname":"runnervmeorf1","msg":"Retrieved text for element id=shop-title containing ODT x merchandise"}
-{"level":30,"time":"2026-04-25T23:42:14.341Z","pid":3296,"hostname":"runnervmeorf1","msg":"End of node method getText"}
-{"level":30,"time":"2026-04-25T23:42:14.609Z","pid":3296,"hostname":"runnervmeorf1","msg":"responseChunks.length: 1"}
-{"level":30,"time":"2026-04-25T23:42:14.609Z","pid":3296,"hostname":"runnervmeorf1","msg":"Sending response Response received"}
-{"level":30,"time":"2026-04-25T23:42:15.617Z","pid":3296,"hostname":"runnervmeorf1","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2026-04-25T23:42:15.617Z","pid":3296,"hostname":"runnervmeorf1","Take screenshot with options: ":{"path":"/home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/results/browser/screenshot/robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
-{"level":30,"time":"2026-04-25T23:42:15.666Z","pid":3296,"hostname":"runnervmeorf1","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2026-04-25T23:42:15.671Z","pid":3296,"hostname":"runnervmeorf1","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-04-25T23:42:15.672Z","pid":3296,"hostname":"runnervmeorf1","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-04-25T23:42:15.673Z","pid":3296,"hostname":"runnervmeorf1","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-04-25T23:42:15.678Z","pid":3296,"hostname":"runnervmeorf1","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-04-25T23:42:15.679Z","pid":3296,"hostname":"runnervmeorf1","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-04-25T23:42:15.680Z","pid":3296,"hostname":"runnervmeorf1","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-04-25T23:42:15.682Z","pid":3296,"hostname":"runnervmeorf1","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-04-25T23:42:15.683Z","pid":3296,"hostname":"runnervmeorf1","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-04-25T23:42:15.685Z","pid":3296,"hostname":"runnervmeorf1","msg":"Changed active context: context=c1117114-38eb-4313-a1a4-a6597e2345b7"}
-{"level":30,"time":"2026-04-25T23:42:15.685Z","pid":3296,"hostname":"runnervmeorf1","msg":"Changing current active page: page=792798c8-01d7-44e5-bdd8-43dc12c7e402"}
-{"level":30,"time":"2026-04-25T23:42:15.685Z","pid":3296,"hostname":"runnervmeorf1","msg":"Changed active page"}
-{"level":30,"time":"2026-04-25T23:42:15.686Z","pid":3296,"hostname":"runnervmeorf1","msg":"Start of node method closeContext"}
-{"level":30,"time":"2026-04-25T23:42:15.690Z","pid":3296,"hostname":"runnervmeorf1","msg":"Removed page=783d2f57-affc-41d5-8f7c-ddf15a621f5f from context=c1117114-38eb-4313-a1a4-a6597e2345b7 page stack"}
-{"level":30,"time":"2026-04-25T23:42:15.691Z","pid":3296,"hostname":"runnervmeorf1","msg":"End of node method closeContext"}
-{"level":30,"time":"2026-04-25T23:42:15.697Z","pid":3296,"hostname":"runnervmeorf1","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-04-25T23:42:15.697Z","pid":3296,"hostname":"runnervmeorf1","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-04-25T23:42:15.716Z","pid":3296,"hostname":"runnervmeorf1","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2026-04-25T23:42:15.741Z","pid":3296,"hostname":"runnervmeorf1","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2026-04-26T23:43:09.063Z","pid":3305,"hostname":"runnervmeorf1","msg":"Listening on 127.0.0.1:58611"}
+{"level":30,"time":"2026-04-26T23:43:09.097Z","pid":3305,"hostname":"runnervmeorf1","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-04-26T23:43:09.591Z","pid":3305,"hostname":"runnervmeorf1","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-04-26T23:43:09.592Z","pid":3305,"hostname":"runnervmeorf1","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-04-26T23:43:09.592Z","pid":3305,"hostname":"runnervmeorf1","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-04-26T23:43:09.596Z","pid":3305,"hostname":"runnervmeorf1","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-04-26T23:43:09.596Z","pid":3305,"hostname":"runnervmeorf1","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@3c856c6098383c4b68f9db199c99d796\"},\"headless\":true,\"_contextStack\":[],\"id\":\"browser=3dd34c40-b187-4abd-a9e8-c6713bfe6eea\"}"}
+{"level":30,"time":"2026-04-26T23:43:09.603Z","pid":3305,"hostname":"runnervmeorf1","msg":"Setting default timeout for context context=cab63c65-4db1-4059-9f3d-60acf9057299 to 10000"}
+{"level":30,"time":"2026-04-26T23:43:09.603Z","pid":3305,"hostname":"runnervmeorf1","msg":"Changed active context: context=cab63c65-4db1-4059-9f3d-60acf9057299"}
+{"level":30,"time":"2026-04-26T23:43:09.645Z","pid":3305,"hostname":"runnervmeorf1","msg":"Video path: undefined"}
+{"level":30,"time":"2026-04-26T23:43:09.645Z","pid":3305,"hostname":"runnervmeorf1","msg":"Changed active page"}
+{"level":30,"time":"2026-04-26T23:43:10.696Z","pid":3305,"hostname":"runnervmeorf1","msg":"End of node method newPage"}
+{"level":30,"time":"2026-04-26T23:43:10.701Z","pid":3305,"hostname":"runnervmeorf1","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-04-26T23:43:10.701Z","pid":3305,"hostname":"runnervmeorf1","msg":"Strict mode is enabled, find Locator with id=login-field in page."}
+{"level":30,"time":"2026-04-26T23:43:10.728Z","pid":3305,"hostname":"runnervmeorf1","msg":"End of node method fillText"}
+{"level":30,"time":"2026-04-26T23:43:10.731Z","pid":3305,"hostname":"runnervmeorf1","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-04-26T23:43:10.731Z","pid":3305,"hostname":"runnervmeorf1","msg":"Strict mode is enabled, find Locator with id=password-field in page."}
+{"level":30,"time":"2026-04-26T23:43:10.737Z","pid":3305,"hostname":"runnervmeorf1","msg":"End of node method fillText"}
+{"level":30,"time":"2026-04-26T23:43:10.740Z","pid":3305,"hostname":"runnervmeorf1","msg":"Start of node method click"}
+{"level":30,"time":"2026-04-26T23:43:10.740Z","pid":3305,"hostname":"runnervmeorf1","msg":"Strict mode is enabled, find Locator with id=submit-button in page."}
+{"level":30,"time":"2026-04-26T23:43:10.774Z","pid":3305,"hostname":"runnervmeorf1","msg":"End of node method click"}
+{"level":30,"time":"2026-04-26T23:43:10.777Z","pid":3305,"hostname":"runnervmeorf1","msg":"Start of node method press"}
+{"level":30,"time":"2026-04-26T23:43:10.777Z","pid":3305,"hostname":"runnervmeorf1","msg":"Strict mode is enabled, find Locator with Enter in page."}
+{"level":30,"time":"2026-04-26T23:43:10.777Z","pid":3305,"hostname":"runnervmeorf1","msg":"End of node method press"}
+{"level":30,"time":"2026-04-26T23:43:10.779Z","pid":3305,"hostname":"runnervmeorf1","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-04-26T23:43:10.780Z","pid":3305,"hostname":"runnervmeorf1","msg":"Strict mode is enabled, find Locator with id=shop-title in page."}
+{"level":30,"time":"2026-04-26T23:43:11.302Z","pid":3305,"hostname":"runnervmeorf1","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-04-26T23:43:11.306Z","pid":3305,"hostname":"runnervmeorf1","msg":"Start of node method getText"}
+{"level":30,"time":"2026-04-26T23:43:11.306Z","pid":3305,"hostname":"runnervmeorf1","msg":"Strict mode is enabled, find Locator with id=shop-title in page."}
+{"level":30,"time":"2026-04-26T23:43:11.331Z","pid":3305,"hostname":"runnervmeorf1","msg":"Retrieved text for element id=shop-title containing ODT x merchandise"}
+{"level":30,"time":"2026-04-26T23:43:11.331Z","pid":3305,"hostname":"runnervmeorf1","msg":"End of node method getText"}
+{"level":30,"time":"2026-04-26T23:43:11.563Z","pid":3305,"hostname":"runnervmeorf1","msg":"responseChunks.length: 1"}
+{"level":30,"time":"2026-04-26T23:43:11.563Z","pid":3305,"hostname":"runnervmeorf1","msg":"Sending response Response received"}
+{"level":30,"time":"2026-04-26T23:43:12.571Z","pid":3305,"hostname":"runnervmeorf1","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2026-04-26T23:43:12.572Z","pid":3305,"hostname":"runnervmeorf1","Take screenshot with options: ":{"path":"/home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/results/browser/screenshot/robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2026-04-26T23:43:12.618Z","pid":3305,"hostname":"runnervmeorf1","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2026-04-26T23:43:12.622Z","pid":3305,"hostname":"runnervmeorf1","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-26T23:43:12.623Z","pid":3305,"hostname":"runnervmeorf1","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-26T23:43:12.624Z","pid":3305,"hostname":"runnervmeorf1","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-26T23:43:12.628Z","pid":3305,"hostname":"runnervmeorf1","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-26T23:43:12.630Z","pid":3305,"hostname":"runnervmeorf1","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-26T23:43:12.631Z","pid":3305,"hostname":"runnervmeorf1","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-26T23:43:12.633Z","pid":3305,"hostname":"runnervmeorf1","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-26T23:43:12.634Z","pid":3305,"hostname":"runnervmeorf1","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-26T23:43:12.635Z","pid":3305,"hostname":"runnervmeorf1","msg":"Changed active context: context=cab63c65-4db1-4059-9f3d-60acf9057299"}
+{"level":30,"time":"2026-04-26T23:43:12.635Z","pid":3305,"hostname":"runnervmeorf1","msg":"Changing current active page: page=61a23167-4092-410e-acfb-51b559ec7d84"}
+{"level":30,"time":"2026-04-26T23:43:12.636Z","pid":3305,"hostname":"runnervmeorf1","msg":"Changed active page"}
+{"level":30,"time":"2026-04-26T23:43:12.637Z","pid":3305,"hostname":"runnervmeorf1","msg":"Start of node method closeContext"}
+{"level":30,"time":"2026-04-26T23:43:12.640Z","pid":3305,"hostname":"runnervmeorf1","msg":"Removed page=f494ee7a-3a2a-49ae-b602-70554f66212d from context=cab63c65-4db1-4059-9f3d-60acf9057299 page stack"}
+{"level":30,"time":"2026-04-26T23:43:12.642Z","pid":3305,"hostname":"runnervmeorf1","msg":"End of node method closeContext"}
+{"level":30,"time":"2026-04-26T23:43:12.647Z","pid":3305,"hostname":"runnervmeorf1","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-26T23:43:12.647Z","pid":3305,"hostname":"runnervmeorf1","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-26T23:43:12.666Z","pid":3305,"hostname":"runnervmeorf1","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-04-26T23:43:12.687Z","pid":3305,"hostname":"runnervmeorf1","msg":"End of node method closeAllBrowsers"}
