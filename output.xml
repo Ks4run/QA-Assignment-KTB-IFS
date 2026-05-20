@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.2 (Python 3.10.20 on linux)" generated="2026-05-17T23:59:50.064649" rpa="false" schemaversion="5">
+<robot generator="Robot 7.4.2 (Python 3.10.20 on linux)" generated="2026-05-20T00:10:05.390976" rpa="false" schemaversion="5">
 <suite id="s1" name="Tests" source="/home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/tests">
 <suite id="s1-s1" name="Odt-Merchandise" source="/home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/tests/odt-merchandise.robot">
 <test id="s1-s1-t1" name="Login Merchandise ODDS Success" line="9">
 <kw name="New Browser" owner="Browser">
-<msg time="2026-05-17T23:59:50.222522" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/results/browser/traces/temp/05e059ec-4d5d-40ae-9cb5-0c30cfe8ceb5"}</msg>
-<msg time="2026-05-17T23:59:50.227846" level="INFO">Starting Browser process /home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/.venv/lib/python3.10/site-packages/Browser/wrapper/index.js using at 127.0.0.1:46825</msg>
-<msg time="2026-05-17T23:59:52.640949" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":true,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/results/browser/traces/temp/05e059ec-4d5d-40ae-9cb5-0c30cfe8ceb5"}</msg>
+<msg time="2026-05-20T00:10:05.579071" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/results/browser/traces/temp/376f1bc5-1279-470c-ad9a-b92908b2f510"}</msg>
+<msg time="2026-05-20T00:10:05.584779" level="INFO">Starting Browser process /home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/.venv/lib/python3.10/site-packages/Browser/wrapper/index.js using at 127.0.0.1:56993</msg>
+<msg time="2026-05-20T00:10:07.058939" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":true,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/results/browser/traces/temp/376f1bc5-1279-470c-ad9a-b92908b2f510"}</msg>
 <arg>browser=${BROWSER}</arg>
 <arg>headless=True</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2026-05-17T23:59:50.221768" elapsed="2.419479"/>
+<status status="PASS" start="2026-05-20T00:10:05.578064" elapsed="1.481136"/>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2026-05-17T23:59:53.614382" level="INFO">Successfully initialized new page object and opened url: https://merchandise-dev.odds.team/</msg>
-<msg time="2026-05-17T23:59:53.614497" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<msg time="2026-05-20T00:10:08.055711" level="INFO">Successfully initialized new page object and opened url: https://merchandise-dev.odds.team/</msg>
+<msg time="2026-05-20T00:10:08.055822" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
 <arg>${URL}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2026-05-17T23:59:52.641557" elapsed="0.973122"/>
+<status status="PASS" start="2026-05-20T00:10:07.059532" elapsed="0.996483"/>
 </kw>
 <kw name="Fill Text" owner="Browser">
-<msg time="2026-05-17T23:59:53.615546" level="INFO">Fills the text 'customer1' in the given field.</msg>
+<msg time="2026-05-20T00:10:08.057027" level="INFO">Fills the text 'customer1' in the given field.</msg>
 <arg>id=login-field</arg>
 <arg>customer1</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2026-05-17T23:59:53.614929" elapsed="0.030726"/>
+<status status="PASS" start="2026-05-20T00:10:08.056316" elapsed="0.034968"/>
 </kw>
 <kw name="Fill Text" owner="Browser">
-<msg time="2026-05-17T23:59:53.646461" level="INFO">Fills the text 'password' in the given field.</msg>
+<msg time="2026-05-20T00:10:08.092374" level="INFO">Fills the text 'password' in the given field.</msg>
 <arg>id=password-field</arg>
 <arg>password</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2026-05-17T23:59:53.645891" elapsed="0.008460"/>
+<status status="PASS" start="2026-05-20T00:10:08.091659" elapsed="0.010640"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2026-05-17T23:59:53.655029" level="INFO">Clicks the element 'id=submit-button'.</msg>
+<msg time="2026-05-20T00:10:08.103446" level="INFO">Clicks the element 'id=submit-button'.</msg>
 <arg>id=submit-button</arg>
 <arg>left</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2026-05-17T23:59:53.654581" elapsed="0.041312"/>
+<status status="PASS" start="2026-05-20T00:10:08.102666" elapsed="0.048767"/>
 </kw>
 <kw name="Press Keys" owner="Browser">
 <arg>Enter</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Types the given key combination into element found by ``selector``.</doc>
-<status status="PASS" start="2026-05-17T23:59:53.696096" elapsed="0.002810"/>
+<status status="PASS" start="2026-05-20T00:10:08.151761" elapsed="0.003896"/>
 </kw>
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2026-05-17T23:59:54.156506" level="INFO">Waited for Element with selector id=shop-title at state visible</msg>
+<msg time="2026-05-20T00:10:08.620576" level="INFO">Waited for Element with selector id=shop-title at state visible</msg>
 <arg>id=shop-title</arg>
 <arg>visible</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2026-05-17T23:59:53.699054" elapsed="0.457689"/>
+<status status="PASS" start="2026-05-20T00:10:08.155937" elapsed="0.464887"/>
 </kw>
 <kw name="Get Text" owner="Browser">
-<msg time="2026-05-17T23:59:54.185103" level="INFO">Text: 'ODT x merchandise'</msg>
+<msg time="2026-05-20T00:10:08.652312" level="INFO">Text: 'ODT x merchandise'</msg>
 <arg>id=shop-title</arg>
 <arg>contains</arg>
 <arg>ODT x merchandise</arg>
@@ -75,37 +75,37 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2026-05-17T23:59:54.156997" elapsed="0.028280"/>
+<status status="PASS" start="2026-05-20T00:10:08.621102" elapsed="0.031400"/>
 </kw>
 <kw name="Wait For Response" owner="Browser">
-<msg time="2026-05-17T23:59:54.380481" level="INFO">Response received</msg>
-<msg time="2026-05-17T23:59:54.381112" level="INFO">{'status': 200, 'headers': {'via': 'kong/3.6.1', 'x-kong-upstream-latency': '12', 'x-kong-proxy-latency': '1', 'content-length': '4298', 'x-kong-request-id': 'cdc1bb516a233f7bc8ed2f316df2c963', 'date': 'Sun, 17 May 2026 23:59:53 GMT', 'content-type': 'application/json'}, 'statusText': '', 'url': 'https://merchandise-dev.odds.team/api/products?page=1', 'ok': True, 'request': {'headers': {'sec-ch-ua-platform': '"Linux"', 'referer': 'https://merchandise-dev.odds.team/store.html', 'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36', 'sec-ch-ua': '"Not:A-Brand";v="99", "HeadlessChrome";v="145", "Chromium";v="145"', 'sec-ch-ua-mobile': '?0'}, 'method': 'GET', 'postData': None}, 'body': {'total': 50, 'pageNumber': 1, 'pageSize': 10, 'data': [{'sku': '0000000001', 'title': 'TerraFlex Hoodie', 'photoUrl': '/products/0000000001/photo', 'description': "Men's hoodie for gym. Crafted from recycled polyester with regular fit; made with recycled fibers.", 'price': 79.69, 'tags': [{'name': 'eco', 'title': 'Eco-Friendly'}, {'name': 'winter', 'title': 'Winter'}, {'name': 'men', 'title': 'Men'}, {'name': 'training', 'title': 'Training'}]}, {'sku': '0000000002', 'title': 'NordicPeak Jacket', 'photoUrl': '/products/0000000002/photo', 'description': "Women's jacket for casual. Crafted from GORE-TEX® with regular fit; made with recycled fibers; warmth for cold weather.", 'price': 206.2, 'tags': [{'name': 'limited', 'title': 'Limited Edition'}, {'name': 'eco', 'title': 'Eco-Friendly'}, {'name': 'winter', 'title': 'Winter'}, {'name': 'women', 'title': 'Women'}]}, {'sku': '0000000003', 'title': 'PolarStep Yoga Tights', 'photoUrl': '/products/0000000003/photo', 'description': 'Unisex tights for yoga. Crafted from recycled polyester with slim fit; made with recycled fibers.', 'price': 48.6, 'tags': [{'name': 'limited', 'title': 'Limited Edition'}, {'name': 'eco', 'title': 'Eco-Friendly'}, {'name': 'summer', 'title': 'Summer'}, {'name': 'unisex', 'title': 'Unisex'}, {'name': 'training', 'title': 'Training'}]}, {'sku': '0000000004', 'title': 'PolarStep Hiking Sports Bra', 'photoUrl': '/products/0000000004/photo', 'description': "Women's sports bra for hiking. Crafted from nylon-spandex with relaxed fit; made with recycled fibers; durable for trail use.", 'price': 55.14, 'tags': [{'name': 'limited', 'title': 'Limited Edition'}, {'name': 'eco', 'title': 'Eco-Friendly'}, {'name': 'summer', 'title': 'Summer'}, {'name': 'women', 'title': 'Women'}, {'name': 'outdoor', 'title': 'Outdoor'}]}, {'sku': '0000000005', 'title': 'Kido Running Jacket - Black', 'photoUrl': '/products/0000000005/photo', 'description': 'Unisex jacket for running. Crafted from recycled polyester with relaxed fit; warmth for cold weather; moisture-wicking.', 'price': 192.93, 'tags': [{'name': 'running', 'title': 'Running'}, {'name': 'winter', 'title': 'Winter'}, {'name': 'unisex', 'title': 'Unisex'}, {'name': 'outdoor', 'title': 'Outdoor'}, {'name': 'training', 'title': 'Training'}]}, {'sku': '0000000006', 'title': 'Astra Tights - Black', 'photoUrl': '/products/0000000006/photo', 'description': 'Unisex tights for training. Crafted from organic cotton with regular fit; made with recycled fibers.', 'price': 66.65, 'tags': [{'name': 'new', 'title': 'New'}, {'name': 'eco', 'title': 'Eco-Friendly'}, {'name': 'summer', 'title': 'Summer'}, {'name': 'unisex', 'title': 'Unisex'}, {'name': 'training', 'title': 'Training'}]}, {'sku': '0000000007', 'title': 'Astra Hiking Cap', 'photoUrl': '/products/0000000007/photo', 'description': 'Unisex cap for hiking. Crafted from recycled polyester with regular fit; lightweight &amp; breathable; durable for trail use.', 'price': 26.27, 'tags': [{'name': 'accessories', 'title': 'Accessories'}, {'name': 'new', 'title': 'New'}, {'name': 'summer', 'title': 'Summer'}, {'name': 'unisex', 'title': 'Unisex'}, {'name': 'outdoor', 'title': 'Outdoor'}]}, {'sku': '0000000008', 'title': 'Astra Outdoor Beanie - Royal Blue', 'photoUrl': '/products/0000000008/photo', 'description': "Women's beanie for outdoor. Crafted from GORE-TEX® with regular fit; warmth for cold weather; durable for trail use.", 'price': 33.95, 'tags': [{'name': 'accessories', 'title': 'Accessories'}, {'name': 'new', 'title': 'New'}, {'name': 'winter', 'title': 'Winter'}, {'name': 'women', 'title': 'Women'}, {'name': 'outdoor', 'title': 'Outdoor'}]}, {'sku': '0000000009', 'title': 'TerraFlex Running Socks - Navy', 'photoUrl': '/products/0000000009/photo', 'description': "Men's socks for running. Crafted from nylon-spandex with regular fit; lightweight &amp; breathable; moisture-wicking.", 'price': 17.11, 'tags': [{'name': 'accessories', 'title': 'Accessories'}, {'name': 'running', 'title': 'Running'}, {'name': 'summer', 'title': 'Summer'}, {'name': 'men', 'title': 'Men'}, {'name': 'outdoor', 'title': 'Outdoor'}, {'name': 'training', 'title': 'Training'}]}, {'sku': '0000000010', 'title': 'TerraFlex Gloves', 'photoUrl': '/products/0000000010/photo', 'description': "Women's gloves for outdoor. Crafted from poly-cotton fleece with slim fit; warmth for cold weather; durable for trail use.", 'price': 22.24, 'tags': [{'name': 'accessories', 'title': 'Accessories'}, {'name': 'winter', 'title': 'Winter'}, {'name': 'women', 'title': 'Women'}, {'name': 'outdoor', 'title': 'Outdoor'}]}]}}</msg>
+<msg time="2026-05-20T00:10:08.844409" level="INFO">Response received</msg>
+<msg time="2026-05-20T00:10:08.845311" level="INFO">{'status': 200, 'headers': {'via': 'kong/3.6.1', 'x-kong-upstream-latency': '10', 'x-kong-proxy-latency': '0', 'content-length': '4298', 'x-kong-request-id': '5104c3210ad2f1764db2330b11f51e69', 'date': 'Wed, 20 May 2026 00:10:07 GMT', 'content-type': 'application/json'}, 'statusText': '', 'url': 'https://merchandise-dev.odds.team/api/products?page=1', 'ok': True, 'request': {'headers': {'sec-ch-ua-platform': '"Linux"', 'referer': 'https://merchandise-dev.odds.team/store.html', 'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36', 'sec-ch-ua': '"Not:A-Brand";v="99", "HeadlessChrome";v="145", "Chromium";v="145"', 'sec-ch-ua-mobile': '?0'}, 'method': 'GET', 'postData': None}, 'body': {'total': 50, 'pageNumber': 1, 'pageSize': 10, 'data': [{'sku': '0000000001', 'title': 'TerraFlex Hoodie', 'photoUrl': '/products/0000000001/photo', 'description': "Men's hoodie for gym. Crafted from recycled polyester with regular fit; made with recycled fibers.", 'price': 79.69, 'tags': [{'name': 'eco', 'title': 'Eco-Friendly'}, {'name': 'winter', 'title': 'Winter'}, {'name': 'men', 'title': 'Men'}, {'name': 'training', 'title': 'Training'}]}, {'sku': '0000000002', 'title': 'NordicPeak Jacket', 'photoUrl': '/products/0000000002/photo', 'description': "Women's jacket for casual. Crafted from GORE-TEX® with regular fit; made with recycled fibers; warmth for cold weather.", 'price': 206.2, 'tags': [{'name': 'limited', 'title': 'Limited Edition'}, {'name': 'eco', 'title': 'Eco-Friendly'}, {'name': 'winter', 'title': 'Winter'}, {'name': 'women', 'title': 'Women'}]}, {'sku': '0000000003', 'title': 'PolarStep Yoga Tights', 'photoUrl': '/products/0000000003/photo', 'description': 'Unisex tights for yoga. Crafted from recycled polyester with slim fit; made with recycled fibers.', 'price': 48.6, 'tags': [{'name': 'limited', 'title': 'Limited Edition'}, {'name': 'eco', 'title': 'Eco-Friendly'}, {'name': 'summer', 'title': 'Summer'}, {'name': 'unisex', 'title': 'Unisex'}, {'name': 'training', 'title': 'Training'}]}, {'sku': '0000000004', 'title': 'PolarStep Hiking Sports Bra', 'photoUrl': '/products/0000000004/photo', 'description': "Women's sports bra for hiking. Crafted from nylon-spandex with relaxed fit; made with recycled fibers; durable for trail use.", 'price': 55.14, 'tags': [{'name': 'limited', 'title': 'Limited Edition'}, {'name': 'eco', 'title': 'Eco-Friendly'}, {'name': 'summer', 'title': 'Summer'}, {'name': 'women', 'title': 'Women'}, {'name': 'outdoor', 'title': 'Outdoor'}]}, {'sku': '0000000005', 'title': 'Kido Running Jacket - Black', 'photoUrl': '/products/0000000005/photo', 'description': 'Unisex jacket for running. Crafted from recycled polyester with relaxed fit; warmth for cold weather; moisture-wicking.', 'price': 192.93, 'tags': [{'name': 'running', 'title': 'Running'}, {'name': 'winter', 'title': 'Winter'}, {'name': 'unisex', 'title': 'Unisex'}, {'name': 'outdoor', 'title': 'Outdoor'}, {'name': 'training', 'title': 'Training'}]}, {'sku': '0000000006', 'title': 'Astra Tights - Black', 'photoUrl': '/products/0000000006/photo', 'description': 'Unisex tights for training. Crafted from organic cotton with regular fit; made with recycled fibers.', 'price': 66.65, 'tags': [{'name': 'new', 'title': 'New'}, {'name': 'eco', 'title': 'Eco-Friendly'}, {'name': 'summer', 'title': 'Summer'}, {'name': 'unisex', 'title': 'Unisex'}, {'name': 'training', 'title': 'Training'}]}, {'sku': '0000000007', 'title': 'Astra Hiking Cap', 'photoUrl': '/products/0000000007/photo', 'description': 'Unisex cap for hiking. Crafted from recycled polyester with regular fit; lightweight &amp; breathable; durable for trail use.', 'price': 26.27, 'tags': [{'name': 'accessories', 'title': 'Accessories'}, {'name': 'new', 'title': 'New'}, {'name': 'summer', 'title': 'Summer'}, {'name': 'unisex', 'title': 'Unisex'}, {'name': 'outdoor', 'title': 'Outdoor'}]}, {'sku': '0000000008', 'title': 'Astra Outdoor Beanie - Royal Blue', 'photoUrl': '/products/0000000008/photo', 'description': "Women's beanie for outdoor. Crafted from GORE-TEX® with regular fit; warmth for cold weather; durable for trail use.", 'price': 33.95, 'tags': [{'name': 'accessories', 'title': 'Accessories'}, {'name': 'new', 'title': 'New'}, {'name': 'winter', 'title': 'Winter'}, {'name': 'women', 'title': 'Women'}, {'name': 'outdoor', 'title': 'Outdoor'}]}, {'sku': '0000000009', 'title': 'TerraFlex Running Socks - Navy', 'photoUrl': '/products/0000000009/photo', 'description': "Men's socks for running. Crafted from nylon-spandex with regular fit; lightweight &amp; breathable; moisture-wicking.", 'price': 17.11, 'tags': [{'name': 'accessories', 'title': 'Accessories'}, {'name': 'running', 'title': 'Running'}, {'name': 'summer', 'title': 'Summer'}, {'name': 'men', 'title': 'Men'}, {'name': 'outdoor', 'title': 'Outdoor'}, {'name': 'training', 'title': 'Training'}]}, {'sku': '0000000010', 'title': 'TerraFlex Gloves', 'photoUrl': '/products/0000000010/photo', 'description': "Women's gloves for outdoor. Crafted from poly-cotton fleece with slim fit; warmth for cold weather; durable for trail use.", 'price': 22.24, 'tags': [{'name': 'accessories', 'title': 'Accessories'}, {'name': 'winter', 'title': 'Winter'}, {'name': 'women', 'title': 'Women'}, {'name': 'outdoor', 'title': 'Outdoor'}]}]}}</msg>
 <arg>https://merchandise-dev.odds.team/api/products?page=1</arg>
 <tag>HTTP</tag>
 <tag>Wait</tag>
 <doc>Waits for response matching matcher and returns the response as robot dict.</doc>
-<status status="PASS" start="2026-05-17T23:59:54.185525" elapsed="0.196884"/>
+<status status="PASS" start="2026-05-20T00:10:08.652775" elapsed="0.193686"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2026-05-17T23:59:55.383501" level="INFO">Slept 1 second.</msg>
+<msg time="2026-05-20T00:10:09.847502" level="INFO">Slept 1 second.</msg>
 <arg>1s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-05-17T23:59:54.382697" elapsed="1.000992"/>
+<status status="PASS" start="2026-05-20T00:10:08.846767" elapsed="1.000926"/>
 </kw>
 <kw name="Take Screenshot" owner="Browser">
-<msg time="2026-05-17T23:59:55.436933" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2026-05-20T00:10:09.903663" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
 <tag>PageContent</tag>
 <doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2026-05-17T23:59:55.383993" elapsed="0.053179"/>
+<status status="PASS" start="2026-05-20T00:10:09.847976" elapsed="0.055886"/>
 </kw>
-<msg time="2026-05-17T23:59:55.446727" level="INFO">Switching context to context=ddcb4767-61c4-4776-813e-a786af6627d3 in CURRENT</msg>
-<msg time="2026-05-17T23:59:55.451707" level="INFO">Successfully changed active context: context=ddcb4767-61c4-4776-813e-a786af6627d3</msg>
-<msg time="2026-05-17T23:59:55.458868" level="INFO">Successfully closed Context</msg>
-<status status="PASS" start="2026-05-17T23:59:50.220691" elapsed="5.216700"/>
+<msg time="2026-05-20T00:10:09.918773" level="INFO">Switching context to context=3a5a1666-7ea4-4804-a09e-93adeab1d184 in CURRENT</msg>
+<msg time="2026-05-20T00:10:09.924996" level="INFO">Successfully changed active context: context=3a5a1666-7ea4-4804-a09e-93adeab1d184</msg>
+<msg time="2026-05-20T00:10:09.932978" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2026-05-20T00:10:05.576721" elapsed="4.327360"/>
 </test>
-<status status="PASS" start="2026-05-17T23:59:50.091396" elapsed="5.368209"/>
+<status status="PASS" start="2026-05-20T00:10:05.421632" elapsed="4.512200"/>
 </suite>
-<status status="PASS" start="2026-05-17T23:59:50.065509" elapsed="5.398303"/>
+<status status="PASS" start="2026-05-20T00:10:05.392070" elapsed="4.547214"/>
 </suite>
 <statistics>
 <total>
