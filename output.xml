@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.2 (Python 3.10.20 on linux)" generated="2026-07-06T00:09:54.141439" rpa="false" schemaversion="5">
+<robot generator="Robot 7.4.2 (Python 3.10.20 on linux)" generated="2026-07-08T00:00:03.310644" rpa="false" schemaversion="5">
 <suite id="s1" name="Tests" source="/home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/tests">
 <suite id="s1-s1" name="Odt-Merchandise" source="/home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/tests/odt-merchandise.robot">
 <test id="s1-s1-t1" name="Login Merchandise ODDS Success" line="9">
 <kw name="New Browser" owner="Browser">
-<msg time="2026-07-06T00:09:54.299933" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/results/browser/traces/temp/523211bd-bdf5-4835-a37e-4843fb198559"}</msg>
-<msg time="2026-07-06T00:09:54.304774" level="INFO">Starting Browser process /home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/.venv/lib/python3.10/site-packages/Browser/wrapper/index.js using at 127.0.0.1:33359</msg>
-<msg time="2026-07-06T00:09:56.062950" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":true,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/results/browser/traces/temp/523211bd-bdf5-4835-a37e-4843fb198559"}</msg>
+<msg time="2026-07-08T00:00:03.461050" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/results/browser/traces/temp/95a7a167-04a2-49c8-80d8-6d9fa2af2762"}</msg>
+<msg time="2026-07-08T00:00:03.466180" level="INFO">Starting Browser process /home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/.venv/lib/python3.10/site-packages/Browser/wrapper/index.js using at 127.0.0.1:41329</msg>
+<msg time="2026-07-08T00:00:05.883235" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":true,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/results/browser/traces/temp/95a7a167-04a2-49c8-80d8-6d9fa2af2762"}</msg>
 <arg>browser=${BROWSER}</arg>
 <arg>headless=True</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2026-07-06T00:09:54.299197" elapsed="1.764060"/>
+<status status="PASS" start="2026-07-08T00:00:03.460226" elapsed="2.423373"/>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2026-07-06T00:09:56.701751" level="INFO">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+<msg time="2026-07-08T00:00:06.589665" level="INFO">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
 Error: Tried to take screenshot, but no page was open.</msg>
-<msg time="2026-07-06T00:09:56.701877" level="INFO">See also file:///home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/results/playwright-log.txt for additional details.</msg>
-<msg time="2026-07-06T00:09:56.702276" level="FAIL">Error: page.goto: net::ERR_CERT_DATE_INVALID at https://merchandise-dev.odds.team/
+<msg time="2026-07-08T00:00:06.589852" level="INFO">See also file:///home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/results/playwright-log.txt for additional details.</msg>
+<msg time="2026-07-08T00:00:06.590476" level="FAIL">Error: page.goto: net::ERR_CERT_DATE_INVALID at https://merchandise-dev.odds.team/
 Call log:
   - navigating to "https://merchandise-dev.odds.team/", waiting until "load"
 </msg>
@@ -26,7 +26,7 @@ Call log:
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="FAIL" start="2026-07-06T00:09:56.063628" elapsed="0.639696">Error: page.goto: net::ERR_CERT_DATE_INVALID at https://merchandise-dev.odds.team/
+<status status="FAIL" start="2026-07-08T00:00:05.883977" elapsed="0.707738">Error: page.goto: net::ERR_CERT_DATE_INVALID at https://merchandise-dev.odds.team/
 Call log:
   - navigating to "https://merchandise-dev.odds.team/", waiting until "load"
 </status>
@@ -37,7 +37,7 @@ Call log:
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="NOT RUN" start="2026-07-06T00:09:56.703597" elapsed="0.000087"/>
+<status status="NOT RUN" start="2026-07-08T00:00:06.591977" elapsed="0.000129"/>
 </kw>
 <kw name="Fill Text" owner="Browser">
 <arg>id=password-field</arg>
@@ -45,7 +45,7 @@ Call log:
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="NOT RUN" start="2026-07-06T00:09:56.703809" elapsed="0.000056"/>
+<status status="NOT RUN" start="2026-07-08T00:00:06.592325" elapsed="0.000093"/>
 </kw>
 <kw name="Click" owner="Browser">
 <arg>id=submit-button</arg>
@@ -53,14 +53,14 @@ Call log:
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="NOT RUN" start="2026-07-06T00:09:56.703978" elapsed="0.000052"/>
+<status status="NOT RUN" start="2026-07-08T00:00:06.592583" elapsed="0.000069"/>
 </kw>
 <kw name="Press Keys" owner="Browser">
 <arg>Enter</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Types the given key combination into element found by ``selector``.</doc>
-<status status="NOT RUN" start="2026-07-06T00:09:56.704138" elapsed="0.000051"/>
+<status status="NOT RUN" start="2026-07-08T00:00:06.592759" elapsed="0.000047"/>
 </kw>
 <kw name="Wait For Elements State" owner="Browser">
 <arg>id=shop-title</arg>
@@ -68,7 +68,7 @@ Call log:
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="NOT RUN" start="2026-07-06T00:09:56.704294" elapsed="0.000052"/>
+<status status="NOT RUN" start="2026-07-08T00:00:06.592900" elapsed="0.000041"/>
 </kw>
 <kw name="Get Text" owner="Browser">
 <arg>id=shop-title</arg>
@@ -78,36 +78,36 @@ Call log:
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="NOT RUN" start="2026-07-06T00:09:56.704451" elapsed="0.000051"/>
+<status status="NOT RUN" start="2026-07-08T00:00:06.593028" elapsed="0.000039"/>
 </kw>
 <kw name="Wait For Response" owner="Browser">
 <arg>https://merchandise-dev.odds.team/api/products?page=1</arg>
 <tag>HTTP</tag>
 <tag>Wait</tag>
 <doc>Waits for response matching matcher and returns the response as robot dict.</doc>
-<status status="NOT RUN" start="2026-07-06T00:09:56.704653" elapsed="0.000055"/>
+<status status="NOT RUN" start="2026-07-08T00:00:06.593200" elapsed="0.000047"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
 <arg>1s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="NOT RUN" start="2026-07-06T00:09:56.704812" elapsed="0.000050"/>
+<status status="NOT RUN" start="2026-07-08T00:00:06.593336" elapsed="0.000038"/>
 </kw>
 <kw name="Take Screenshot" owner="Browser">
 <tag>PageContent</tag>
 <doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="NOT RUN" start="2026-07-06T00:09:56.704964" elapsed="0.000051"/>
+<status status="NOT RUN" start="2026-07-08T00:00:06.593454" elapsed="0.000037"/>
 </kw>
-<msg time="2026-07-06T00:09:56.713132" level="INFO">Switching context to context=af909033-9f44-4e67-bf65-b23fbf66f459 in CURRENT</msg>
-<msg time="2026-07-06T00:09:56.717166" level="INFO">Successfully changed active context: context=af909033-9f44-4e67-bf65-b23fbf66f459</msg>
-<msg time="2026-07-06T00:09:56.720968" level="INFO">Successfully closed Context</msg>
-<status status="FAIL" start="2026-07-06T00:09:54.298135" elapsed="2.407066">Error: page.goto: net::ERR_CERT_DATE_INVALID at https://merchandise-dev.odds.team/
+<msg time="2026-07-08T00:00:06.602135" level="INFO">Switching context to context=e8416c54-960e-44ad-9d66-b4932e75685f in CURRENT</msg>
+<msg time="2026-07-08T00:00:06.606326" level="INFO">Successfully changed active context: context=e8416c54-960e-44ad-9d66-b4932e75685f</msg>
+<msg time="2026-07-08T00:00:06.610140" level="INFO">Successfully closed Context</msg>
+<status status="FAIL" start="2026-07-08T00:00:03.459022" elapsed="3.134659">Error: page.goto: net::ERR_CERT_DATE_INVALID at https://merchandise-dev.odds.team/
 Call log:
   - navigating to "https://merchandise-dev.odds.team/", waiting until "load"
 </status>
 </test>
-<status status="FAIL" start="2026-07-06T00:09:54.168300" elapsed="2.553324"/>
+<status status="FAIL" start="2026-07-08T00:00:03.334640" elapsed="3.276120"/>
 </suite>
-<status status="FAIL" start="2026-07-06T00:09:54.142292" elapsed="2.582799"/>
+<status status="FAIL" start="2026-07-08T00:00:03.311571" elapsed="3.302728"/>
 </suite>
 <statistics>
 <total>
