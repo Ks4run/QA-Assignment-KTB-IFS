@@ -1,76 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.2 (Python 3.10.20 on linux)" generated="2026-07-20T00:00:40.660255" rpa="false" schemaversion="5">
+<robot generator="Robot 7.4.2 (Python 3.10.20 on linux)" generated="2026-07-21T23:57:37.357134" rpa="false" schemaversion="5">
 <suite id="s1" name="Tests" source="/home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/tests">
 <suite id="s1-s1" name="Odt-Merchandise" source="/home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/tests/odt-merchandise.robot">
 <test id="s1-s1-t1" name="Login Merchandise ODDS Success" line="9">
 <kw name="New Browser" owner="Browser">
-<msg time="2026-07-20T00:00:40.778345" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/results/browser/traces/temp/deda67aa-2fd4-4afe-bbd9-8bcea8bf42b7"}</msg>
-<msg time="2026-07-20T00:00:40.782603" level="INFO">Starting Browser process /home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/.venv/lib/python3.10/site-packages/Browser/wrapper/index.js using at 127.0.0.1:38371</msg>
-<msg time="2026-07-20T00:00:41.875570" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":true,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/results/browser/traces/temp/deda67aa-2fd4-4afe-bbd9-8bcea8bf42b7"}</msg>
+<msg time="2026-07-21T23:57:37.494880" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/results/browser/traces/temp/e5a411ee-3c4d-4a7e-a162-776e0ab0f240"}</msg>
+<msg time="2026-07-21T23:57:37.498860" level="INFO">Starting Browser process /home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/.venv/lib/python3.10/site-packages/Browser/wrapper/index.js using at 127.0.0.1:42743</msg>
+<msg time="2026-07-21T23:57:39.004916" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":true,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/results/browser/traces/temp/e5a411ee-3c4d-4a7e-a162-776e0ab0f240"}</msg>
 <arg>browser=${BROWSER}</arg>
 <arg>headless=True</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2026-07-20T00:00:40.777646" elapsed="1.098173"/>
+<status status="PASS" start="2026-07-21T23:57:37.494128" elapsed="1.511021"/>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2026-07-20T00:00:42.828777" level="INFO">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
-Error: Tried to take screenshot, but no page was open.</msg>
-<msg time="2026-07-20T00:00:42.828944" level="INFO">See also file:///home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/results/playwright-log.txt for additional details.</msg>
-<msg time="2026-07-20T00:00:42.829311" level="FAIL">Error: page.goto: net::ERR_CERT_DATE_INVALID at https://merchandise-dev.odds.team/
-Call log:
-  - navigating to "https://merchandise-dev.odds.team/", waiting until "load"
-</msg>
+<msg time="2026-07-21T23:57:40.616695" level="INFO">Successfully initialized new page object and opened url: https://merchandise-dev.odds.team/</msg>
+<msg time="2026-07-21T23:57:40.616833" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
 <arg>${URL}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="FAIL" start="2026-07-20T00:00:41.876115" elapsed="0.954054">Error: page.goto: net::ERR_CERT_DATE_INVALID at https://merchandise-dev.odds.team/
-Call log:
-  - navigating to "https://merchandise-dev.odds.team/", waiting until "load"
-</status>
+<status status="PASS" start="2026-07-21T23:57:39.005466" elapsed="1.611535"/>
 </kw>
 <kw name="Fill Text" owner="Browser">
+<msg time="2026-07-21T23:57:40.617995" level="INFO">Fills the text 'customer1' in the given field.</msg>
 <arg>id=login-field</arg>
 <arg>customer1</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="NOT RUN" start="2026-07-20T00:00:42.830412" elapsed="0.000075"/>
+<status status="PASS" start="2026-07-21T23:57:40.617271" elapsed="0.030775"/>
 </kw>
 <kw name="Fill Text" owner="Browser">
+<msg time="2026-07-21T23:57:40.648882" level="INFO">Fills the text 'password' in the given field.</msg>
 <arg>id=password-field</arg>
 <arg>password</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="NOT RUN" start="2026-07-20T00:00:42.830575" elapsed="0.000038"/>
+<status status="PASS" start="2026-07-21T23:57:40.648317" elapsed="0.008752"/>
 </kw>
 <kw name="Click" owner="Browser">
+<msg time="2026-07-21T23:57:40.657847" level="INFO">Clicks the element 'id=submit-button'.</msg>
 <arg>id=submit-button</arg>
 <arg>left</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="NOT RUN" start="2026-07-20T00:00:42.830688" elapsed="0.000033"/>
+<status status="PASS" start="2026-07-21T23:57:40.657304" elapsed="0.035545"/>
 </kw>
 <kw name="Press Keys" owner="Browser">
 <arg>Enter</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Types the given key combination into element found by ``selector``.</doc>
-<status status="NOT RUN" start="2026-07-20T00:00:42.830793" elapsed="0.000034"/>
+<status status="PASS" start="2026-07-21T23:57:40.693063" elapsed="0.002570"/>
 </kw>
 <kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-07-21T23:57:41.228086" level="INFO">Waited for Element with selector id=shop-title at state visible</msg>
 <arg>id=shop-title</arg>
 <arg>visible</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="NOT RUN" start="2026-07-20T00:00:42.830936" elapsed="0.000043"/>
+<status status="PASS" start="2026-07-21T23:57:40.695820" elapsed="0.532483"/>
 </kw>
 <kw name="Get Text" owner="Browser">
+<msg time="2026-07-21T23:57:41.253543" level="INFO">Text: 'ODT x merchandise'</msg>
 <arg>id=shop-title</arg>
 <arg>contains</arg>
 <arg>ODT x merchandise</arg>
@@ -78,46 +75,47 @@ Call log:
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="NOT RUN" start="2026-07-20T00:00:42.831057" elapsed="0.000033"/>
+<status status="PASS" start="2026-07-21T23:57:41.228580" elapsed="0.025097"/>
 </kw>
 <kw name="Wait For Response" owner="Browser">
+<msg time="2026-07-21T23:57:41.458804" level="INFO">Response received</msg>
+<msg time="2026-07-21T23:57:41.459979" level="INFO">{'status': 200, 'headers': {'x-kong-request-id': '0aee8b45466566085ee5147081d29516', 'via': '1.1 kong/3.9.1', 'x-kong-upstream-latency': '7', 'x-kong-proxy-latency': '0', 'content-length': '4298', 'date': 'Tue, 21 Jul 2026 23:57:41 GMT', 'content-type': 'application/json', 'server': 'kong/3.9.1'}, 'statusText': '', 'url': 'https://merchandise-dev.odds.team/api/products?page=1', 'ok': True, 'request': {'headers': {'sec-ch-ua-platform': '"Linux"', 'referer': 'https://merchandise-dev.odds.team/store.html', 'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36', 'sec-ch-ua': '"Not:A-Brand";v="99", "HeadlessChrome";v="145", "Chromium";v="145"', 'sec-ch-ua-mobile': '?0'}, 'method': 'GET', 'postData': None}, 'body': {'total': 50, 'pageNumber': 1, 'pageSize': 10, 'data': [{'sku': '0000000001', 'title': 'TerraFlex Hoodie', 'photoUrl': '/products/0000000001/photo', 'description': "Men's hoodie for gym. Crafted from recycled polyester with regular fit; made with recycled fibers.", 'price': 79.69, 'tags': [{'name': 'eco', 'title': 'Eco-Friendly'}, {'name': 'winter', 'title': 'Winter'}, {'name': 'men', 'title': 'Men'}, {'name': 'training', 'title': 'Training'}]}, {'sku': '0000000002', 'title': 'NordicPeak Jacket', 'photoUrl': '/products/0000000002/photo', 'description': "Women's jacket for casual. Crafted from GORE-TEX® with regular fit; made with recycled fibers; warmth for cold weather.", 'price': 206.2, 'tags': [{'name': 'limited', 'title': 'Limited Edition'}, {'name': 'eco', 'title': 'Eco-Friendly'}, {'name': 'winter', 'title': 'Winter'}, {'name': 'women', 'title': 'Women'}]}, {'sku': '0000000003', 'title': 'PolarStep Yoga Tights', 'photoUrl': '/products/0000000003/photo', 'description': 'Unisex tights for yoga. Crafted from recycled polyester with slim fit; made with recycled fibers.', 'price': 48.6, 'tags': [{'name': 'limited', 'title': 'Limited Edition'}, {'name': 'eco', 'title': 'Eco-Friendly'}, {'name': 'summer', 'title': 'Summer'}, {'name': 'unisex', 'title': 'Unisex'}, {'name': 'training', 'title': 'Training'}]}, {'sku': '0000000004', 'title': 'PolarStep Hiking Sports Bra', 'photoUrl': '/products/0000000004/photo', 'description': "Women's sports bra for hiking. Crafted from nylon-spandex with relaxed fit; made with recycled fibers; durable for trail use.", 'price': 55.14, 'tags': [{'name': 'limited', 'title': 'Limited Edition'}, {'name': 'eco', 'title': 'Eco-Friendly'}, {'name': 'summer', 'title': 'Summer'}, {'name': 'women', 'title': 'Women'}, {'name': 'outdoor', 'title': 'Outdoor'}]}, {'sku': '0000000005', 'title': 'Kido Running Jacket - Black', 'photoUrl': '/products/0000000005/photo', 'description': 'Unisex jacket for running. Crafted from recycled polyester with relaxed fit; warmth for cold weather; moisture-wicking.', 'price': 192.93, 'tags': [{'name': 'running', 'title': 'Running'}, {'name': 'winter', 'title': 'Winter'}, {'name': 'unisex', 'title': 'Unisex'}, {'name': 'outdoor', 'title': 'Outdoor'}, {'name': 'training', 'title': 'Training'}]}, {'sku': '0000000006', 'title': 'Astra Tights - Black', 'photoUrl': '/products/0000000006/photo', 'description': 'Unisex tights for training. Crafted from organic cotton with regular fit; made with recycled fibers.', 'price': 66.65, 'tags': [{'name': 'new', 'title': 'New'}, {'name': 'eco', 'title': 'Eco-Friendly'}, {'name': 'summer', 'title': 'Summer'}, {'name': 'unisex', 'title': 'Unisex'}, {'name': 'training', 'title': 'Training'}]}, {'sku': '0000000007', 'title': 'Astra Hiking Cap', 'photoUrl': '/products/0000000007/photo', 'description': 'Unisex cap for hiking. Crafted from recycled polyester with regular fit; lightweight &amp; breathable; durable for trail use.', 'price': 26.27, 'tags': [{'name': 'accessories', 'title': 'Accessories'}, {'name': 'new', 'title': 'New'}, {'name': 'summer', 'title': 'Summer'}, {'name': 'unisex', 'title': 'Unisex'}, {'name': 'outdoor', 'title': 'Outdoor'}]}, {'sku': '0000000008', 'title': 'Astra Outdoor Beanie - Royal Blue', 'photoUrl': '/products/0000000008/photo', 'description': "Women's beanie for outdoor. Crafted from GORE-TEX® with regular fit; warmth for cold weather; durable for trail use.", 'price': 33.95, 'tags': [{'name': 'accessories', 'title': 'Accessories'}, {'name': 'new', 'title': 'New'}, {'name': 'winter', 'title': 'Winter'}, {'name': 'women', 'title': 'Women'}, {'name': 'outdoor', 'title': 'Outdoor'}]}, {'sku': '0000000009', 'title': 'TerraFlex Running Socks - Navy', 'photoUrl': '/products/0000000009/photo', 'description': "Men's socks for running. Crafted from nylon-spandex with regular fit; lightweight &amp; breathable; moisture-wicking.", 'price': 17.11, 'tags': [{'name': 'accessories', 'title': 'Accessories'}, {'name': 'running', 'title': 'Running'}, {'name': 'summer', 'title': 'Summer'}, {'name': 'men', 'title': 'Men'}, {'name': 'outdoor', 'title': 'Outdoor'}, {'name': 'training', 'title': 'Training'}]}, {'sku': '0000000010', 'title': 'TerraFlex Gloves', 'photoUrl': '/products/0000000010/photo', 'description': "Women's gloves for outdoor. Crafted from poly-cotton fleece with slim fit; warmth for cold weather; durable for trail use.", 'price': 22.24, 'tags': [{'name': 'accessories', 'title': 'Accessories'}, {'name': 'winter', 'title': 'Winter'}, {'name': 'women', 'title': 'Women'}, {'name': 'outdoor', 'title': 'Outdoor'}]}]}}</msg>
 <arg>https://merchandise-dev.odds.team/api/products?page=1</arg>
 <tag>HTTP</tag>
 <tag>Wait</tag>
 <doc>Waits for response matching matcher and returns the response as robot dict.</doc>
-<status status="NOT RUN" start="2026-07-20T00:00:42.831166" elapsed="0.000030"/>
+<status status="PASS" start="2026-07-21T23:57:41.253903" elapsed="0.206950"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
+<msg time="2026-07-21T23:57:42.461739" level="INFO">Slept 1 second.</msg>
 <arg>1s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="NOT RUN" start="2026-07-20T00:00:42.831266" elapsed="0.000033"/>
+<status status="PASS" start="2026-07-21T23:57:41.461101" elapsed="1.000831"/>
 </kw>
 <kw name="Take Screenshot" owner="Browser">
+<msg time="2026-07-21T23:57:42.509869" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
 <tag>PageContent</tag>
 <doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="NOT RUN" start="2026-07-20T00:00:42.831364" elapsed="0.000029"/>
+<status status="PASS" start="2026-07-21T23:57:42.462229" elapsed="0.047802"/>
 </kw>
-<msg time="2026-07-20T00:00:42.838201" level="INFO">Switching context to context=8ba96047-79e8-47e5-bc78-7b07c13d77b8 in CURRENT</msg>
-<msg time="2026-07-20T00:00:42.841667" level="INFO">Successfully changed active context: context=8ba96047-79e8-47e5-bc78-7b07c13d77b8</msg>
-<msg time="2026-07-20T00:00:42.844987" level="INFO">Successfully closed Context</msg>
-<status status="FAIL" start="2026-07-20T00:00:40.776685" elapsed="2.054871">Error: page.goto: net::ERR_CERT_DATE_INVALID at https://merchandise-dev.odds.team/
-Call log:
-  - navigating to "https://merchandise-dev.odds.team/", waiting until "load"
-</status>
+<msg time="2026-07-21T23:57:42.520112" level="INFO">Switching context to context=f07c54c1-cc0c-4336-80ee-18a76611e9ce in CURRENT</msg>
+<msg time="2026-07-21T23:57:42.525145" level="INFO">Successfully changed active context: context=f07c54c1-cc0c-4336-80ee-18a76611e9ce</msg>
+<msg time="2026-07-21T23:57:42.533458" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2026-07-21T23:57:37.493122" elapsed="5.017098"/>
 </test>
-<status status="FAIL" start="2026-07-20T00:00:40.679488" elapsed="2.166102"/>
+<status status="PASS" start="2026-07-21T23:57:37.379199" elapsed="5.154950"/>
 </suite>
-<status status="FAIL" start="2026-07-20T00:00:40.661045" elapsed="2.187465"/>
+<status status="PASS" start="2026-07-21T23:57:37.357889" elapsed="5.182107"/>
 </suite>
 <statistics>
 <total>
-<stat pass="0" fail="1" skip="0">All Tests</stat>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="Tests" id="s1" pass="0" fail="1" skip="0">Tests</stat>
-<stat name="Odt-Merchandise" id="s1-s1" pass="0" fail="1" skip="0">Tests.Odt-Merchandise</stat>
+<stat name="Tests" id="s1" pass="1" fail="0" skip="0">Tests</stat>
+<stat name="Odt-Merchandise" id="s1-s1" pass="1" fail="0" skip="0">Tests.Odt-Merchandise</stat>
 </suite>
 </statistics>
 <errors>
