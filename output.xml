@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.2 (Python 3.10.22 on linux)" generated="2026-10-18T00:43:09.500160" rpa="false" schemaversion="5">
+<robot generator="Robot 7.4.2 (Python 3.10.22 on linux)" generated="2026-10-19T00:56:15.784611" rpa="false" schemaversion="5">
 <suite id="s1" name="Tests" source="/home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/tests">
 <suite id="s1-s1" name="Odt-Merchandise" source="/home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/tests/odt-merchandise.robot">
 <test id="s1-s1-t1" name="Login Merchandise ODDS Success" line="9">
 <kw name="New Browser" owner="Browser">
-<msg time="2026-10-18T00:43:09.655043" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/results/browser/traces/temp/659d77f6-ab26-4799-be7a-8b127b9a8c55"}</msg>
-<msg time="2026-10-18T00:43:09.659792" level="INFO">Starting Browser process /home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/.venv/lib/python3.10/site-packages/Browser/wrapper/index.js using at 127.0.0.1:60349</msg>
-<msg time="2026-10-18T00:43:10.375484" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":true,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/results/browser/traces/temp/659d77f6-ab26-4799-be7a-8b127b9a8c55"}</msg>
+<msg time="2026-10-19T00:56:15.956551" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/results/browser/traces/temp/4fde94a1-1324-4335-9dfa-d64d431ca982"}</msg>
+<msg time="2026-10-19T00:56:15.961269" level="INFO">Starting Browser process /home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/.venv/lib/python3.10/site-packages/Browser/wrapper/index.js using at 127.0.0.1:40407</msg>
+<msg time="2026-10-19T00:56:16.756445" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":true,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/results/browser/traces/temp/4fde94a1-1324-4335-9dfa-d64d431ca982"}</msg>
 <arg>browser=${BROWSER}</arg>
 <arg>headless=True</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2026-10-18T00:43:09.654316" elapsed="0.721476"/>
+<status status="PASS" start="2026-10-19T00:56:15.955668" elapsed="0.801147"/>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2026-10-18T00:43:11.230835" level="INFO">Successfully initialized new page object and opened url: https://merchandise-dev.odds.team/</msg>
-<msg time="2026-10-18T00:43:11.230959" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<msg time="2026-10-19T00:56:17.630049" level="INFO">Successfully initialized new page object and opened url: https://merchandise-dev.odds.team/</msg>
+<msg time="2026-10-19T00:56:17.630185" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
 <arg>${URL}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2026-10-18T00:43:10.376127" elapsed="0.855032"/>
+<status status="PASS" start="2026-10-19T00:56:16.757154" elapsed="0.873232"/>
 </kw>
 <kw name="Fill Text" owner="Browser">
-<msg time="2026-10-18T00:43:11.232036" level="INFO">Fills the text 'customer1' in the given field.</msg>
-<msg time="2026-10-18T00:43:21.272413" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/fail-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/fail-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
-<msg time="2026-10-18T00:43:21.272576" level="INFO">See also file:///home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/results/playwright-log.txt for additional details.</msg>
-<msg time="2026-10-18T00:43:21.273016" level="FAIL">TimeoutError: locator.fill: Timeout 10000ms exceeded.
+<msg time="2026-10-19T00:56:17.631425" level="INFO">Fills the text 'customer1' in the given field.</msg>
+<msg time="2026-10-19T00:56:27.672412" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/fail-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/fail-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2026-10-19T00:56:27.672563" level="INFO">See also file:///home/runner/work/QA-Assignment-KTB-IFS/QA-Assignment-KTB-IFS/results/playwright-log.txt for additional details.</msg>
+<msg time="2026-10-19T00:56:27.673042" level="FAIL">TimeoutError: locator.fill: Timeout 10000ms exceeded.
 Call log:
   - waiting for locator('id=login-field')
 </msg>
@@ -36,7 +36,7 @@ Call log:
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="FAIL" start="2026-10-18T00:43:11.231448" elapsed="10.042589">TimeoutError: locator.fill: Timeout 10000ms exceeded.
+<status status="FAIL" start="2026-10-19T00:56:17.630643" elapsed="10.043408">TimeoutError: locator.fill: Timeout 10000ms exceeded.
 Call log:
   - waiting for locator('id=login-field')
 </status>
@@ -47,7 +47,7 @@ Call log:
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="NOT RUN" start="2026-10-18T00:43:21.274308" elapsed="0.000116"/>
+<status status="NOT RUN" start="2026-10-19T00:56:27.674304" elapsed="0.000086"/>
 </kw>
 <kw name="Click" owner="Browser">
 <arg>id=submit-button</arg>
@@ -55,14 +55,14 @@ Call log:
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="NOT RUN" start="2026-10-18T00:43:21.274556" elapsed="0.000060"/>
+<status status="NOT RUN" start="2026-10-19T00:56:27.674516" elapsed="0.000058"/>
 </kw>
 <kw name="Press Keys" owner="Browser">
 <arg>Enter</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Types the given key combination into element found by ``selector``.</doc>
-<status status="NOT RUN" start="2026-10-18T00:43:21.274730" elapsed="0.000054"/>
+<status status="NOT RUN" start="2026-10-19T00:56:27.674692" elapsed="0.000082"/>
 </kw>
 <kw name="Wait For Elements State" owner="Browser">
 <arg>id=shop-title</arg>
@@ -70,7 +70,7 @@ Call log:
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="NOT RUN" start="2026-10-18T00:43:21.274894" elapsed="0.000054"/>
+<status status="NOT RUN" start="2026-10-19T00:56:27.674894" elapsed="0.000057"/>
 </kw>
 <kw name="Get Text" owner="Browser">
 <arg>id=shop-title</arg>
@@ -80,36 +80,36 @@ Call log:
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="NOT RUN" start="2026-10-18T00:43:21.275065" elapsed="0.000055"/>
+<status status="NOT RUN" start="2026-10-19T00:56:27.675066" elapsed="0.000053"/>
 </kw>
 <kw name="Wait For Response" owner="Browser">
 <arg>https://merchandise-dev.odds.team/api/products?page=1</arg>
 <tag>HTTP</tag>
 <tag>Wait</tag>
 <doc>Waits for response matching matcher and returns the response as robot dict.</doc>
-<status status="NOT RUN" start="2026-10-18T00:43:21.275244" elapsed="0.000054"/>
+<status status="NOT RUN" start="2026-10-19T00:56:27.675243" elapsed="0.000054"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
 <arg>1s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="NOT RUN" start="2026-10-18T00:43:21.275445" elapsed="0.000063"/>
+<status status="NOT RUN" start="2026-10-19T00:56:27.675406" elapsed="0.000051"/>
 </kw>
 <kw name="Take Screenshot" owner="Browser">
 <tag>PageContent</tag>
 <doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="NOT RUN" start="2026-10-18T00:43:21.275618" elapsed="0.000053"/>
+<status status="NOT RUN" start="2026-10-19T00:56:27.675562" elapsed="0.000049"/>
 </kw>
-<msg time="2026-10-18T00:43:21.288084" level="INFO">Switching context to context=1a93fa30-20d4-4a99-a5ec-f8cdf68c6484 in CURRENT</msg>
-<msg time="2026-10-18T00:43:21.294340" level="INFO">Successfully changed active context: context=1a93fa30-20d4-4a99-a5ec-f8cdf68c6484</msg>
-<msg time="2026-10-18T00:43:21.302918" level="INFO">Successfully closed Context</msg>
-<status status="FAIL" start="2026-10-18T00:43:09.653247" elapsed="11.622629">TimeoutError: locator.fill: Timeout 10000ms exceeded.
+<msg time="2026-10-19T00:56:27.689714" level="INFO">Switching context to context=1dbd849d-3212-408b-92ec-eb9598fdcbce in CURRENT</msg>
+<msg time="2026-10-19T00:56:27.696308" level="INFO">Successfully changed active context: context=1dbd849d-3212-408b-92ec-eb9598fdcbce</msg>
+<msg time="2026-10-19T00:56:27.703717" level="INFO">Successfully closed Context</msg>
+<status status="FAIL" start="2026-10-19T00:56:15.954459" elapsed="11.721372">TimeoutError: locator.fill: Timeout 10000ms exceeded.
 Call log:
   - waiting for locator('id=login-field')
 </status>
 </test>
-<status status="FAIL" start="2026-10-18T00:43:09.527138" elapsed="11.776908"/>
+<status status="FAIL" start="2026-10-19T00:56:15.812789" elapsed="11.891779"/>
 </suite>
-<status status="FAIL" start="2026-10-18T00:43:09.501033" elapsed="11.807099"/>
+<status status="FAIL" start="2026-10-19T00:56:15.785624" elapsed="11.923409"/>
 </suite>
 <statistics>
 <total>
